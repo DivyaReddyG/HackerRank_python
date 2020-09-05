@@ -1,0 +1,13 @@
+example:
+  input: The first line contains the first name, and the second line contains the last name.
+  output: Hello firstname lastname! You just delved into python.
+          print output in above mentioned format
+  
+  
+ code: 
+  
+      def print_full_name(a, b):
+          print("Hello {} {}! You just delved into python.".format(a,b))
+          
+      first_n, last_n = input(), input()
+      print_full_name(first_n, last_n)
